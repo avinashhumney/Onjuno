@@ -452,12 +452,12 @@ body{
     .metal-image {
         position: absolute;
         top: 2750px;
-        left: 50px;
+        left: 55px;
     }
     .premium{
         position: absolute;
-        top: 3990px;
-        left: 50px;
+        top: 3980px;
+        left: 55px;
     }
     .funds-des {
         margin-right: 800px;
@@ -465,7 +465,7 @@ body{
     .basic-img {
         position: absolute;
         top: 5200px;
-        left: 50px;
+        left: 55px;
     }
     .funds-des h3 {
         margin-left: 26px;
@@ -481,7 +481,7 @@ body{
         flex-direction: column;
     }
     .percent-icon img {
-        margin-right: 890px;
+        margin-right: 850px;
         height: 280px;
         width: 280px;
     }
