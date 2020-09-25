@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li {
+    padding: 10px 20px;
+    font-size: large;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links ul li:hover {
+    color: #444;
+}
+
+.login {
+    padding: 10px 0;
+}
+
+/* #0147FA */
+
+.btn {
+    padding: 11px 40px;
+}
+
+.outline {
+    margin-right: 15px;
+    background: #fff;
+    border: none;
+    border: 2px solid #5971AD;
+    color: #5971AD;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.colored {
+    cursor: pointer;
+    background: #0147FA;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 70px;
+}
+
+.form {
+    border: 2px solid #ccc;
+    width: 550px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.form form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form form input {
+    width: 60%;
+    padding: 20px;
+}
+
+.form form input:focus {
+    outline: none;
+}
+ 
+.lead {
+    font-size: 30px;
+    color:gray;
+}
+
+.email {
+    border: none;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.join {
+    padding: 18px 40px;
+    font-weight: bold;
+}
+
+.form i {
+    color:#0147FA;
+}
+
+.flag-para {
+    color: gray;
+    padding-left:10px;
+    font-weight: bold;
+}
+
+.google-app {
+    padding-top: 50px;
+}
+
+.home-icon {
+    padding-top: 50px;
+}
+
+.hero-tag {
+    padding-bottom: 90px;
+}
+
+.companies {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.company-brand {
+    padding: 25px;
+}
+
+.company-brand img {
+    padding: 30px 80px;
+}
+
+.funds {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+}
+
+.funds-des h3 {
+    color:#0147FA;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.funds-des h1 {
+    font-size: 50px;
+    font-weight: 1000;
+
+}
+
+.funds-des p {
+    font-size: 20px;
+    color: gray;
+}
+
+.metal {
+    width: 350px;
+}
+
+.metal-head {
+    background-color: #e8f4f8;
+}
+
+.progress-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #DCDCDC;
+    border-radius: 18px;
+}
+
+.progress {
+    height: 10px;
+    width: 90%;
+    background-color: #009900;
+    border-radius: 18px;
+}
+
+.fa {
+    color: #009900;
+}
+
+.metal-footer {
+    background: #ade6bb;
+}
+
+.metal-footer h2, .metal-footer h3 {
+    color: #009900;
+}
+
+.metal-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.metal-body h4 span {
+    color: #009900;
+    font-size: 22px;
+    font-weight: 1000;
+}
+
+.sign-up {
+    font-weight: 600;
+    padding: 20px 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 6px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.metal-head h1 span{
+    font-size: 50px;
+    color: #0147FA;
+}
+
+.card-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-head h1 {
+    font-size: 50px;
+}
+
+.card-head p {
+    font-size: 25px;
+    color: #888;
+    font-weight: bold;
+}
+
+.metal-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.five {
+    background-color: #009900;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.cash-back {
+    color: #999;
+}
+
+.metal-heading {
+    font-weight: bold;
+    color: #999;
+    font-size: 25px;
+}
+
+.metal-image {
+    position: absolute;
+    top: 240vh;
+    left: 210px;
+}
+
+.metal-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.includes {
+    font-size: 16px;
+    color: #444;
+}
+
+.metal {
+    border-radius: 10px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 20px 1px rgba(0,0,0,0.3);
+}
+
+.include-heading {
+    color: #d4d4d4;
+    letter-spacing: 5px;
+}
+
+.include-para {
+    color: #999;
+}
+
+.premium {
+    position: absolute;
+    top: 240vh;
+    left: 640px;
+}
+
+.basic-img {
+    position: absolute;
+    top: 240vh;
+    left: 1070px;
+}
+
+.metal-head .premium-cent {
+    color: black;
+    font-weight: bold;
+}
+
+.four {
+    background-color: #ccc;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.progress-premium > div {
+    background-color: gray;
+}
+
+.up-next {
+    background-color: lightgrey;
+    margin-left: 25px;
+    cursor: not-allowed;
+}
+
+.p-tick {
+    color: lightgrey;
+}
+
+.p-foot {
+    background-color:#f9f9f9;
+}
+
+.p-head {
+    background-color: #f9f9f9;
+}
+
+.p-dollar {
+    margin-right: 5px;
+}
+
+.p-dollar,.p-del {
+    color: gray;
+}
+
+.p-foot .p-soon {
+    color: gray;
+}
+
+.soon-btn {
+    padding: 22px 110px;
+}
+
+.b-foot h2 {
+    color: gray;
+}
+.b-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-foot h3 {
+    color: gray;
+}
+
+.metal .metal-head .premium-cent, 
+.metal-head h1 span {
+    font-size: 70px;
+}
+
+@media(max-width:500px) {
+    .container {
+        flex-direction: column;
+    }
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .lead {
+        font-size: 20px;
+    }
+    .hero-tag {
+        margin-right: 370px;
+        margin-bottom: 0;
+    }
+    .form {
+        width: 35%;
+        height: 20px;
+    }
+    .form button {
+        padding: 5px 20px;
+    }
+    .form form {
+        padding-bottom: 25px;
+    }
+    .home-icon {
+        margin-right: 870px;
+        height: 400px;
+        width: 250px;
+    }
+    .metal-image {
+        position: absolute;
+        top: 2300px;
+        left: 46px;
+    }
+    .premium{
+        position: absolute;
+        top: 3500px;
+        left: 46px;
+    }
+    .basic-img {
+        position: absolute;
+        top: 4750px;
+        left: 46px;
+    }
+    .funds-des h3 {
+        margin-left: 26px;
+    }
+    .funds-des h1 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+    .funds-des p {
+        margin-left: 15px;
+    }
+    .funds {
+        flex-direction: column;
+    }
+    .percent-icon img {
+        margin-right: 890px;
+        height: 280px;
+        width: 280px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card-head h1 {
+        font-size: 30px;
+    }
+    .card-head p {
+        font-size: 20px;
+    }
+    .metal {
+        width: 260px;
+        margin-right: 45px;
+        margin-bottom: 150px;
+    }
+    .sign-up {
+        margin-right: 18px;
+        padding: 15px 80px;
+    }
+    .logo{
+        margin-left: 80px;
+    }
+    .login {
+        margin-left: 25px;
+    }
+    .companies{
+        margin-right: 60px;
+    }
+    .nav-links ul {
+        margin-right: 300px;
+    }
+    body {
+        overflow: hidden;
+    }
+}
