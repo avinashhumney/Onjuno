@@ -162,7 +162,7 @@ body{
 .funds {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 1200px;
     margin: auto;
 }
@@ -297,7 +297,7 @@ body{
 
 .metal-image {
     position: absolute;
-    top: 240vh;
+    top: 268vh;
     left: 210px;
 }
 
@@ -334,13 +334,13 @@ body{
 
 .premium {
     position: absolute;
-    top: 240vh;
+    top: 268vh;
     left: 640px;
 }
 
 .basic-img {
     position: absolute;
-    top: 240vh;
+    top: 268vh;
     left: 1070px;
 }
 
@@ -431,12 +431,12 @@ body{
         font-size: 20px;
     }
     .hero-tag {
-        margin-right: 370px;
+        margin-right: 830px;
         margin-bottom: 0;
     }
     .form {
-        width: 35%;
-        height: 20px;
+        width: 75%;
+        height: 50px;
     }
     .form button {
         padding: 5px 20px;
@@ -451,18 +451,21 @@ body{
     }
     .metal-image {
         position: absolute;
-        top: 2300px;
-        left: 46px;
+        top: 2750px;
+        left: 50px;
     }
     .premium{
         position: absolute;
-        top: 3500px;
-        left: 46px;
+        top: 3990px;
+        left: 50px;
+    }
+    .funds-des {
+        margin-right: 900px;
     }
     .basic-img {
         position: absolute;
-        top: 4750px;
-        left: 46px;
+        top: 5200px;
+        left: 50px;
     }
     .funds-des h3 {
         margin-left: 26px;
