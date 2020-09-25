@@ -452,17 +452,17 @@ body{
     .metal-image {
         position: absolute;
         top: 2220px;
-        left: 80px;
+        left: 79px;
     }
     .premium{
         position: absolute;
-        top: 3500px;
-        left: 46px;
+        top: 3470px;
+        left: 79px;
     }
     .basic-img {
         position: absolute;
-        top: 4750px;
-        left: 46px;
+        top: 4650px;
+        left: 79px;
     }
     .funds-des h3 {
         margin-left: 26px;
