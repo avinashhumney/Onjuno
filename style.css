@@ -416,6 +416,9 @@ body{
 }
 
 @media(max-width:500px) {
+    body{
+        overflow-x:hidden;
+    }
     .container {
         flex-direction: column;
     }
