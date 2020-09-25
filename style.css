@@ -452,12 +452,12 @@ body{
     .metal-image {
         position: absolute;
         top: 2750px;
-        left: 55px;
+        left: 65px;
     }
     .premium{
         position: absolute;
         top: 3980px;
-        left: 55px;
+        left: 65px;
     }
     .funds-des {
         margin-right: 800px;
@@ -465,7 +465,7 @@ body{
     .basic-img {
         position: absolute;
         top: 5200px;
-        left: 55px;
+        left: 65px;
     }
     .funds-des h3 {
         margin-left: 26px;
