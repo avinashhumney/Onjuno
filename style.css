@@ -451,18 +451,18 @@ body{
     }
     .metal-image {
         position: absolute;
-        top: 2220px;
-        left: 78px;
+        top: 2300px;
+        left: 46px;
     }
     .premium{
         position: absolute;
-        top: 3380px;
-        left: 78px;
+        top: 3500px;
+        left: 46px;
     }
     .basic-img {
         position: absolute;
-        top: 4540px;
-        left: 78px;
+        top: 4750px;
+        left: 46px;
     }
     .funds-des h3 {
         margin-left: 26px;
