@@ -415,9 +415,10 @@ body{
     font-size: 70px;
 }
 
-@media(max-width:500px) {
-    body{
-        overflow-x:hidden;
+@media(max-width:768px) {
+    main {
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
     .container {
         flex-direction: column;
